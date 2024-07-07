@@ -1,4 +1,4 @@
-package me.dio.API.RESTcom.Spring;
+package me.dio.domain;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
