@@ -11,7 +11,7 @@ public class Transaction {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(precision = 2, scale = 13)
+    @Column( scale = 2,  precision= 13)
     private BigDecimal amount;
     private String date;
     private String type;

@@ -18,7 +18,7 @@ public class User {
     String email;
     String password;
 
-    @Column(precision = 2, scale = 13)
+    @Column( scale= 2, precision = 13)
     BigDecimal balance;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
